@@ -1,0 +1,66 @@
+html {
+    background-color: #FFF1FD;
+    font-size: 100px;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 100px 150px auto 80px 200px;
+    grid-template-rows: 25% 850px auto;
+    grid-template-areas:
+        "header1 header1 header1 header1 header1"
+        "lsidebar main main main rsidebar"
+        "footer footer footer footer footer";
+}
+
+.griditemheader {
+    grid-area: header1;
+    
+    font-size: 0.4rem;
+    text-align: center;
+    height: 0.5rem;
+    border: 5px solid #FFEF2F;
+    background-color: #D1C000;
+    padding: 0.5rem;
+}
+
+.griditemmain {
+    grid-area: main;
+}
+
+.griditemmain, img {
+    background-color: transparent;
+}
+
+.griditemfooter {
+    grid-area: footer;
+    font-size: 0.3rem;
+}
+
+.griditemrsidebar {
+    grid-area: rsidebar;
+    
+}
+
+
+
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration-line: underline;
+}
+
+a:active {
+    color: #000000;
+    text-decoration: none;
+}

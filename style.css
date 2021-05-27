@@ -1,0 +1,21 @@
+html {
+    font-size: 100px;
+}
+
+h1 {
+    line-height: 200%;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+h2,
+a {
+    padding-right: 50px;
+    color: floralwhite;
+    text-align: right;
+    font-size: 0.2rem;
+}
+
+.elementcenter {
+text-align: center;
+}
